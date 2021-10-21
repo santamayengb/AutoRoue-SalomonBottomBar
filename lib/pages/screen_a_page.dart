@@ -23,7 +23,7 @@ class ScreenAPage extends StatelessWidget {
           items: [
             SalomonBottomBarItem(
               icon: const Icon(Icons.home),
-              title: const Text('B g'),
+              title: const Text('Pull test'),
             ),
             SalomonBottomBarItem(
               icon: const Icon(Icons.car_repair),
