@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigator_bar/routes/routes.gr.dart';
+import '../../routes/routes.dart';
 
 class MyApp extends StatelessWidget {
   MyApp({Key? key}) : super(key: key);
