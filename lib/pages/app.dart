@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:navigator_bar/routes/routes.gr.dart';
 
 class MyApp extends StatelessWidget {
