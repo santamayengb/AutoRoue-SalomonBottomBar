@@ -1,12 +1,13 @@
 import 'package:auto_route/auto_route.dart';
-import '../pages/allscreens.dart';
+import '../pages/pages.dart';
 
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
-    AutoRoute(page: ScreenAPage, children: [
-      AutoRoute(page: ScreenBPage),
-      AutoRoute(page: ScreenCPage),
+    AutoRoute(page: HomePage, initial: true, children: [
+      AutoRoute(
+        page: EmptyRouterPage,
+      ),
     ]),
   ],
 )
